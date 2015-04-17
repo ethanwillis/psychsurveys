@@ -1,0 +1,32 @@
+template(name="dashboard")
+	h2 Surveys Dashboard
+	ui.segment
+	if surveys
+		table.ui.compact.celled.definition.table
+			thead.full-width
+				tr
+					th
+						| Active
+					th
+						| Survey Name
+					th
+						| Project Name
+			tbody
+				+each surveys
+					tr
+						td.collapsing
+							.ui.fitted.toggle.checkbox
+								input(type="checkbox")
+						td
+							a(href='/management/update/survey/{{_id}}')
+								| {{survey_name}}
+						td
+							| {{project_name}}
+			tfoot.full-width
+				tr
+					th(colspan="4")
+						.ui.right.floated.small.primary.labeled.icon.button(data-action="create-survey")
+							i.file.text.icon
+							| Add Survey
+	else
+		h3 No Surveys	

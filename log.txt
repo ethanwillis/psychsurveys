@@ -1,0 +1,92 @@
+[[[[[ ~/Programming/school/psychsurveys ]]]]]
+
+=> Started proxy.
+=> Started MongoDB.
+=> Errors prevented startup:
+   
+   While building the application:
+   packages/spacebars-compiler/codegen.js:176:1: Can't use the built-in 'if'
+   here (compiling client/views/management/dashboard.jade)
+   at [object Object]._.extend.codeGenPath
+   (packages/spacebars-compiler/codegen.js:176:1)
+   at [object Object]._.extend.codeGenTemplateTag
+   (packages/spacebars-compiler/codegen.js:107:1)
+   at [object Object].SpacebarsCompiler._TemplateTagReplacer.def.visitObject
+   (packages/spacebars-compiler/compiler.js:30:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:61:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.TransformingVisitor.def.visitChildren
+   (packages/htmljs/visitors.js:133:1)
+   at [object Object].HTML.TransformingVisitor.def.visitTag
+   (packages/htmljs/visitors.js:119:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:46:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.TransformingVisitor.def.visitChildren
+   (packages/htmljs/visitors.js:133:1)
+   at [object Object].HTML.TransformingVisitor.def.visitTag
+   (packages/htmljs/visitors.js:119:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:46:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.TransformingVisitor.def.visitChildren
+   (packages/htmljs/visitors.js:133:1)
+   at [object Object].HTML.TransformingVisitor.def.visitTag
+   (packages/htmljs/visitors.js:119:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:46:1)
+   at Object.SpacebarsCompiler.codeGen
+   (packages/spacebars-compiler/compiler.js:77:1)
+   at [object Object]._.extend.codeGenBlock
+   (packages/spacebars-compiler/codegen.js:281:1)
+   at [object Object]._.extend.codeGenTemplateTag
+   (packages/spacebars-compiler/codegen.js:94:1)
+   at [object Object].SpacebarsCompiler._TemplateTagReplacer.def.visitObject
+   (packages/spacebars-compiler/compiler.js:30:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:61:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.TransformingVisitor.def.visitChildren
+   (packages/htmljs/visitors.js:133:1)
+   at [object Object].HTML.TransformingVisitor.def.visitTag
+   (packages/htmljs/visitors.js:119:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:46:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.TransformingVisitor.def.visitChildren
+   (packages/htmljs/visitors.js:133:1)
+   at [object Object].HTML.TransformingVisitor.def.visitTag
+   (packages/htmljs/visitors.js:119:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:46:1)
+   at Object.SpacebarsCompiler.codeGen
+   (packages/spacebars-compiler/compiler.js:77:1)
+   at [object Object]._.extend.codeGenBlock
+   (packages/spacebars-compiler/codegen.js:281:1)
+   at [object Object]._.extend.codeGenTemplateTag
+   (packages/spacebars-compiler/codegen.js:94:1)
+   at [object Object].SpacebarsCompiler._TemplateTagReplacer.def.visitObject
+   (packages/spacebars-compiler/compiler.js:30:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:61:1)
+   at [object Object].HTML.TransformingVisitor.def.visitArray
+   (packages/htmljs/visitors.js:100:1)
+   at [object Object].HTML.Visitor.def.visit
+   (packages/htmljs/visitors.js:59:1)
+   at SpacebarsCompiler.codeGen
+   (packages/spacebars-compiler/compiler.js:77:1)
+   at templateGen (packages/compileJade/plugin/handler.js:20:1)
+   at packages/underscore/underscore.js:125:1
+   at _.each._.forEach (packages/underscore/underscore.js:113:1)
+   at Function._.map._.collect (packages/underscore/underscore.js:124:1)
+   at fileModeHandler (packages/compileJade/plugin/handler.js:56:1)
+   
+   
+=> Your application has errors. Waiting for file change.
+=> Modified -- restarting.

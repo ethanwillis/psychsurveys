@@ -1,0 +1,21 @@
+
+@font-face {
+					font-family: 'BLOKKNeue-Regular';
+						src: url('BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.eot');
+		}
+
+		/*@font-face {
+							font-family: 'BLOKKNeue-Regular';
+								src: url('BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.woff') format('woff'),
+									url('BLOKKNeue-Regular/webfonts/BLOKKNeue-Regular.svg#BLOKKNeue-Regular') format('svg');
+					}
+					p { font-family: "BLOKKNeue-Regular", serif}
+					h1 { font-family: "BLOKKNeue-Regular", serif }
+					h2 { font-family: "BLOKKNeue-Regular", serif }
+					h3 { font-family: "BLOKKNeue-Regular", serif }
+					h4 { font-family: "BLOKKNeue-Regular", serif }
+					h5 { font-family: "BLOKKNeue-Regular", serif }
+					h6 { font-family: "BLOKKNeue-Regular", serif }*/
+					body { font-family: "Helvetica", serif }
+
+					 

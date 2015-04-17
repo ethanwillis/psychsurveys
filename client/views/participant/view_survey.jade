@@ -1,0 +1,19 @@
+template(name="view_survey")
+	.ui.segment
+		.sixteen.wide.column
+			p Survey Name
+		.ui.divider
+		+survey_item
+		+survey_item
+		+survey_item	
+
+template(name="survey_item")
+	table.ui.basic.table
+		tbody
+			tr
+				td #
+				td 
+					p Some question will be entered here
+				td
+					p 1 2 3 4 5
+

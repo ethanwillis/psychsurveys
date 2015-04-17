@@ -1,0 +1,29 @@
+template(name="create_survey") 
+	.sixteen.wide.column
+		.ui.breadcrumb
+			a.section(href="/management/view/dashboard") Dashboard
+			.divider >
+			.active.section Create Survey
+	.sixteen.wide.column
+		.ui.divider
+	h3 
+		| Create New Survey
+	.ui.form
+		.inline.fields
+			.three.wide.field
+				label Survey Name
+			.field
+				input(type="text")#surveyname
+		.inline.fields
+			.three.wide.field
+				label Project Name
+			.field
+				input(type="text")#projectname
+	.sixteen.wide.column
+		.ui.divider
+	.sixteen.wide.column
+		.four.wide.column.right.floated.left.align
+			.ui.button(data-action="cancel")
+				| Cancel
+			.ui.primary.button(data-action="create-survey")
+				| Create

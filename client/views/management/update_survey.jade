@@ -1,0 +1,42 @@
+template(name="update_survey")
+	.sixteen.wide.column
+		.ui.breadcrumb
+			a.section(href="/management/view/dashboard") Dashboard
+			.divider >
+			.active.section Update Survey
+	.sixteen.wide.column
+		.ui.divider
+	.sixteen.wide.column
+		h3.ui.icon.header
+			i.settings.icon
+			.content
+				| Survey Information
+		.sixteen.wide.column
+			.ui.form
+				.inline.fields
+					.three.wide.field
+						label Survey Name
+					.field
+						input(type="text")#surveyname
+				.inline.fields
+					.three.wide.field
+						label Project Name
+					.field
+						input(type="text")#projectname
+	.ui.divider
+	.sixteen.wide.column
+		h3.ui.icon.header
+			i.configure.icon
+			.content
+				| Survey Builder
+		.sixteen.wide.column
+			.ui.form
+				.inline.fields
+					.field
+						select.ui.dropdown#assessmentselector
+							option(value="none") Select An Assessment
+							option(value="PsychWellBeing14Iem") Psychological Wellbeing, 14-item
+							option(value="IPVChecklist") IPV Checklist, 12-item
+					.field
+						.ui.primary.button(data-action="add-assessment")
+							| Add Assessment	
